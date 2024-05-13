@@ -75,7 +75,7 @@ h2 {
 h1:not(.versus) {
     color: white;
     font-size: 48px;
-    margin: 4rem;
+    margin: 5rem;
 }
 
 h1 {
@@ -90,13 +90,14 @@ section.risultato {
 
 section.risultato > div > h1 {
     color: #d6ad74;
+    font-size: 32px;
 
     
 }
 
 button {
     position: relative;
-    top: 50px;
+    top: 30px;
     padding: .3rem 4rem;
     border-radius: 20px;
     background-color: #3f3f3f;
@@ -127,6 +128,8 @@ div.numeri-estratti {
     display: flex;
     margin-bottom: 5rem;
 }
+
+
 
 
 

@@ -20,6 +20,18 @@ numeroComputerAppend.appendChild(numeroComputerEl)
 const risultatoAppend = document.querySelector("section > div.risultato")
 const risultatoEl = document.createElement("h1")
 
+if (numeroGiocatore == numeroComputer){
+    risultatoEl.innerHTML = "Mi dispiace, hai pareggiato. Come si dice, meglio una giornata di pioggia che un pareggio."
+    console.log("Better the rain, same number !")
+} else if(numeroComputer > numeroGiocatore){
+    risultatoEl.innerHTML = "Mi dispiace hai perso. Non ti abbatere, prova di nuovo."
+    console.log("I'm sorry. The pc bet you.")
+} else {
+    risultatoEl.innerHTML = "HAI VINTO. Grandi premi per te ti aspettano. Continua a giocare !!"
+    console.log("Congratulation,there is the sun today !")
+}
+risultatoAppend.appendChild(risultatoEl)
+
 
 
 //Selezione bottone e creazione nuovi numeri random al click del bottone
@@ -32,12 +44,15 @@ bottoneGenera.addEventListener("click",function(){
     numeroComputerEl.innerHTML = numeroComputer
     if (numeroGiocatore == numeroComputer){
         risultatoEl.innerHTML = "Mi dispiace, hai pareggiato. Come si dice, meglio una giornata di pioggia che un pareggio."
+        console.log(numeroGiocatore, "VS", numeroComputer)
         console.log("Better the rain, same number !")
     } else if(numeroComputer > numeroGiocatore){
         risultatoEl.innerHTML = "Mi dispiace hai perso. Non ti abbatere, prova di nuovo."
+        console.log(numeroGiocatore, "VS", numeroComputer)
         console.log("I'm sorry. The pc bet you.")
     } else {
         risultatoEl.innerHTML = "HAI VINTO. Grandi premi per te ti aspettano. Continua a giocare !!"
+        console.log(numeroGiocatore, "VS", numeroComputer)
         console.log("Congratulation,there is the sun today !")
     }
     risultatoAppend.appendChild(risultatoEl)
