@@ -3,3 +3,134 @@
     padding: 0;
     box-sizing: 0;
 }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 80px;
+    
+}
+nav{
+    height: 100%;
+    background-color: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > div {
+    height : 100%;
+}
+
+main {
+    background-image: url("https://img.freepik.com/premium-vector/3d-casino-card-design-background-elegant-black-background-vector-illustration_29865-5859.jpg");
+    background-size: cover;
+    height: calc(100vh - 160px);
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #d6ad74;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+}
+
+li {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-dx {
+    
+}
+
+li {
+    height: 100%;
+}
+
+a {
+    color: #d6ad74;
+}
+
+h2 {
+    color: #d6ad74;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Numero Scelto*/
+h1:not(.versus) {
+    color: white;
+    font-size: 48px;
+    margin: 4rem;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin: 4rem;
+}
+
+section.risultato {
+    text-align: center;
+}
+
+section.risultato > div > h1 {
+    color: #d6ad74;
+
+    
+}
+
+button {
+    position: relative;
+    top: 50px;
+    padding: .3rem 4rem;
+    border-radius: 20px;
+    background-color: #3f3f3f;
+    color: #d6ad74;
+    border: transparent;
+    font-size: 26px;
+}
+
+button.active {
+    background-color: aliceblue;
+    color: #d6ad74;
+}
+
+button:hover {
+    opacity: 0.6;
+    color: #d6ad74;
+}
+
+section.numeri-estratti {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+div.numeri-estratti {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+
+
+#img-dadi {
+    height: 100%;
+    width: auto;
+}
