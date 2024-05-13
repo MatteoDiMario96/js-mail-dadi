@@ -25,10 +25,10 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 
 - Creare un array [
-    "...";
-    "...";
-    "...";
-    "...";
+    "...",
+    "...",
+    "...",
+    "...",
 ];
 
 - Chiedere all'utente la sua e-mail
