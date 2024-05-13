@@ -17,8 +17,8 @@ let utenteEmail = prompt("Dicci la tua E-mail, Perfavore!")
 utenteEmail = utenteEmail.substring(0, utenteEmail.length).toLowerCase();
 // console.log(utenteEmail)
 
-// if(listaEmail.includes(utenteEmail)){
-//     console.log("Accesso: CONSENTITO")
-// } else{
-//     console.log("Accesso: NEGATO")
-// }
+if(listaEmail.includes(utenteEmail)){
+    console.log("Accesso: CONSENTITO")
+} else{
+    console.log("Accesso: NEGATO")
+}
