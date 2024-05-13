@@ -41,7 +41,7 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 
 
-- Saltare a piè dispari [Bonus]
+- Saltare a piè pari [Bonus]
 Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è pari inseriscilo nell’array
 
 
